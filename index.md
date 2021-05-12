@@ -1,5 +1,5 @@
 <html>
-  <audio src="ClassicalPiano.wav">
+  <audio src="ClassicalPiano.wav" autoplay loop>
   </audio>
   hi my name is ?
   <button>
