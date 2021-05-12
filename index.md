@@ -1,5 +1,5 @@
 <html>
-  <audio src="ClassicalPiano.wav" contrals>
+  <audio src="ClassicalPiano.wav" controls>
   </audio>
   hi my name is ?
   <button>
