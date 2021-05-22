@@ -1,14 +1,20 @@
 <html>
-  <audio src="ClassicalPiano.wav" controls>
-  </audio>
-  hi my name is ?
-  <button>
-    enter name
-  </button>
-  <video autoplay loop muted="muted">
-  <source src="https://media.giphy.com/media/l0HlCc9qfYJ6lZrzO/giphy.mp4">
-  </video>
-  <a href="https://pascalkrawez.github.io/scratch/space_advener.html">
-  https://pascalkrawez.github.io/scratch/space_advener.html
-  </a>
+  <head>
+  </head>
+  <body onclick = "music.play()">
+	<audio id = "music" src = "ClassicalPiano.wav" >
+	</audio>
+	hi my name is ?
+	<p id = "buttonEnterField">
+		<button onclick = "input1.style.display = 'inline'">
+		enter name
+		</button>
+		<input id = "input1" style = "display:none">
+	</p>
+	<video autoplay loop muted = muted>
+	<source src = "https://media.giphy.com/media/l0HlCc9qfYJ6lZrzO/giphy.mp4">
+	</video>
+	<script>
+	</script>
+  </body>
 </html>
