@@ -13,19 +13,27 @@
 		<button onclick = "input1.style.display = 'inline'">
 		enter name
 		</button>
-		<input id = "input1" style = "display:none">
+		<input id = "input1" style = "display:none" onkeydown="nam(event)">
 	</p>
 	<video autoplay loop muted = muted>
 	<source src = "https://media.giphy.com/media/l0HlCc9qfYJ6lZrzO/giphy.mp4">
 	</video>
 	<script>
-		music.volume = 0.05
+		music.volume = 0.05;
+		function nam(event){
+			if (event.keyCode == 13){
+				alert("hi, "+input1.value);
+			}
+		}
 	</script>
 	<style>
 		body{
 			background-color:#00FF00;
-			background-image:url("BG.jpg");
+			background-image:url("BG2.jpg");
+            background-repeat:no-repeat;
 			text-align: center;
+			background-size:100%;
+			color:#00FF00
 		}
 	</style>
   </body>
