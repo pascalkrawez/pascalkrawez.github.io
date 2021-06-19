@@ -19,42 +19,21 @@
 	
 	<source src = "https://media.giphy.com/media/l0HlCc9qfYJ6lZrzO/giphy.mp4">
 	</video>
-	<div id="graphcomment"></div>
+	<div id="wpac-comment"></div>
 <script type="text/javascript">
-
-  /* - - - CONFIGURATION VARIABLES - - - */
-
-  var __semio__params = {
-    graphcommentId: "My-first-Website", // make sure the id is yours
-
-    behaviour: {
-      // HIGHLY RECOMMENDED
-      //  uid: "...", // uniq identifer for the comments thread on your page (ex: your page id)
-    },
-
-    // configure your variables here
-
-  }
-
-  /* - - - DON'T EDIT BELOW THIS LINE - - - */
-
-  function __semio__onload() {
-    __semio__gc_graphlogin(__semio__params)
-  }
-
-
-  (function() {
-    var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
-    gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://devintegration.graphcomment.com/gc_graphlogin.js?' + Date.now();
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
-  })();
-  
-
+wpac_init = window.wpac_init || [];
+wpac_init.push({widget: 'Comment', id: 31021});
+(function() {
+    if ('WIDGETPACK_LOADED' in window) return;
+    WIDGETPACK_LOADED = true;
+    var mc = document.createElement('script');
+    mc.type = 'text/javascript';
+    mc.async = true;
+    mc.src = 'https://embed.widgetpack.com/widget.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+})();
 </script>
-		</script>
-	
-	
-	
+<a href="https://widgetpack.com" class="wpac-cr">Comments System WIDGET PACK</a>
 	<script>
 		music.volume = 0.05;
 		function nam(event){
